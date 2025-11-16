@@ -13,3 +13,17 @@ public void eraseTool(boolean val){
     brushToggle.setValue(false);
   }
 }
+
+public void cubeTool(boolean val){
+  if (val){
+    currentShape = "cube";
+    sphereToggle.setValue(false);
+  }
+}
+
+public void sphereTool(boolean val){
+  if (val){
+    currentShape = "sphere";
+    cubeToggle.setValue(false);
+  }
+}
