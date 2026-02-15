@@ -1,6 +1,6 @@
 import controlP5.*;
 
-int gridSize = 5;
+int gridSize = 10;
 int boxSize = 60;
 boolean[][][] blocks = new boolean[gridSize][gridSize][gridSize];
 boolean[][][] spheres = new boolean[gridSize][gridSize][gridSize];
